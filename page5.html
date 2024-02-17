@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="page5.css">
+    
+</head>
+<body><br>
+    <ul class="navbar1">
+        <li><a  href="http://127.0.0.1:5500/Assignment%201/index.html">Home</a></li>
+        <li><a href="http://127.0.0.1:5500/Assignment%201/page2.html">Aesthetic</a></li>
+        <li><a href="http://127.0.0.1:5500/Assignment%201/page3.htmll">Nature</a></li>
+        <li><a href="http://127.0.0.1:5500/Assignment%201/page4.html">Portraits</a></li>
+        <li><a class="active" href="http://127.0.0.1:5500/Assignment%201/page5.html">Random</a></li>
+      </ul>
+      <h1>Random </h1>
+      <div id="clock"></div>
+
+      <script>
+      function updateClock() {
+          var now = new Date();
+          var hours = now.getHours();
+          var minutes = now.getMinutes();
+          var seconds = now.getSeconds();
+          
+          // Pad single digit minutes and seconds with leading zeros
+          minutes = (minutes < 10 ? "0" : "") + minutes;
+          seconds = (seconds < 10 ? "0" : "") + seconds;
+          
+          var timeString = hours + ":" + minutes + ":" + seconds;
+          
+          document.getElementById('clock').innerText = timeString;
+      }
+      
+      // Update the clock every second
+      setInterval(updateClock, 1000);
+      
+      // Initial call to display the clock immediately
+      updateClock();
+      </script>
+
+
+
+      <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus corrupti autem magnam, vero tempore sapiente totam! Incidunt beatae saepe dicta facilis exercitationem, optio vero sint non aliquam maiores magni temporibus, quasi eum voluptatibus perspiciatis quae soluta maxime placeat. Totam eaque modi nobis dicta magni fugiat officia, accusantium repellendus id adipisci tempora sunt nulla libero assumenda amet? Libero vitae officia porro architecto, optio sint reprehenderit tenetur facere placeat minus mollitia sapiente voluptatem, adipisci ipsum reiciendis provident. Adipisci id iure fuga et laudantium voluptatum quidem totam fugit autem nisi quod eveniet, dolorum quas ut minus ratione! Inventore quo officia dicta nostrum est aliquid necessitatibus eveniet laudantium dolores nesciunt minima voluptate exercitationem temporibus, doloribus deserunt natus quasi soluta rerum! Nulla sint perferendis consequatur iure corporis inventore, dolores reiciendis quisquam earum quis rem quidem. Delectus repellendus consectetur et, odit nobis dolores pariatur cumque laboriosam ut hic dolorum, maxime quaerat autem vel sint dolor tempora. Assumenda eligendi quis vel hic deleniti alias autem soluta, laboriosam optio cum error nam quam nobis impedit, adipisci, porro cumque fugiat tenetur illum at tempore. Excepturi amet perferendis soluta magnam reiciendis. Eum perspiciatis, dolorem ratione dolore quae debitis perferendis eaque minima? Doloribus, sequi. Eius, neque laudantium ea nesciunt impedit at!</p>
+      <br>
+   <h2>Tutorial:</h2>
+      <div class="video-container">
+        <!-- Replace 'VIDEO_ID' with the actual ID of your YouTube video -->
+        <iframe width="760" height="415" src="https://www.youtube.com/embed/wnUg7ZD1VU0" frameborder="0" allowfullscreen></iframe>
+    </div> <br> <br>
+    <p class="para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores sapiente alias eum eius possimus ipsum quos minima delectus? Iure pariatur culpa architecto, deleniti, dolorem minima quo, dolorum itaque nostrum impedit nulla earum in. Quasi sunt quis tenetur, corporis numquam eius neque. Labore, eum laborum aliquam ipsa cum sed id exercitationem voluptas, nostrum aliquid, repudiandae rem ad cupiditate molestias. Culpa distinctio accusamus quas reprehenderit labore ipsam velit dicta molestiae eligendi incidunt eaque commodi maxime sapiente non, aliquam dolores delectus? Voluptas voluptate dolores, corporis pariatur libero, omnis eius quae itaque id ipsum sint minima ducimus excepturi temporibus vitae consectetur amet. Itaque tempora magnam debitis reprehenderit distinctio temporibus tenetur ipsam aperiam, sit, delectus veritatis deleniti quasi perferendis? Odio consequatur voluptatum soluta culpa maxime exercitationem ducimus fugiat dicta repellendus porro, excepturi ipsa quasi quam incidunt fuga assumenda. Impedit, est cumque dignissimos ea debitis repudiandae recusandae ex, iure quis aperiam odit nulla atque adipisci similique.
+    </p>
+<p class="nav"> <a href="http://127.0.0.1:5500/Assignment%201/page4.html"> < Previous Page</a></p>
+
+</body>
+</html>

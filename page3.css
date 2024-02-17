@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Make sure the body fills the viewport height */
+    background-color: aliceblue; /* Set background color for the body */
+}
+
+h1 {
+    text-align: center; /* Center-align the heading */
+    font-size: 50px; /* Set the font size of the heading */
+}
+
+h2 {
+    font-size: 30px; /* Set the font size of h2 elements */
+    margin: 10px;
+}
+
+.navbar1 {
+    list-style-type: none; /* Remove bullet points from the list */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Align the navigation items horizontally */
+    background-color: #c5c8fd; /* Set background color for the navigation bar */
+    position: relative; 
+    bottom: -10; /* Align the navigation bar to the bottom of the page */
+    width: 100%;
+}
+
+li {
+    margin: 0 30px; /* Add spacing between navigation items */
+}
+
+li a {
+    display: block;
+    color: #000; /* Set text color for navigation links */
+    padding: 15px 16px; /* Add padding to navigation links */
+    text-decoration: none; /* Remove underline from navigation links */
+}
+
+li a.active {
+    background-color: #514c8d; /* Set background color for active navigation link */
+    color: white; /* Set text color for active navigation link */
+}
+
+li a:hover:not(.active) {
+    background-color: #555; /* Set background color on hover for navigation links */
+    color: white; /* Set text color on hover for navigation links */
+}
+
+.container {
+    display: grid; /* Use grid layout for the container */
+    grid-template-columns: 3fr 8fr 1fr; /* Define columns for the grid layout */
+}
+
+img {
+    margin: 50px; /* Add margin around the images */
+    padding: 5px; /* Add padding around the images */
+    width: 300px; /* Set width of the images */
+    border-radius: 20px; /* Apply border radius to the images */
+}
+
+.text {
+    text-align: justify; /* Justify-align the text */
+    margin-top: 60px; /* Add margin to the top of the text */
+    font-size: 20px; /* Set font size for the text */
+}
+
+.para1 {
+    text-align: justify; /* Justify-align the text */
+    font-size: 20px; /* Set font size for the text */
+    margin: 10px;
+}
+
+.para2 {
+    text-align: justify; /* Justify-align the text */
+    background-color: #dcdcdf; /* Set background color for para2 */
+    font-size: 19px; /* Set font size for para2 */
+    font-family: "Arial", sans-serif; /* Change the font to Arial or any other preferred font */
+    margin: 10px;
+    padding: 10px;
+}
+
+img:hover {
+    border: 7px solid rgb(98, 68, 68); /* Add border on hover for images */
+}
+
+.nav {
+    font-size: 20px; /* Set font size for navigation links */
+    margin: 10px; /* Add margin to navigation links */
+}

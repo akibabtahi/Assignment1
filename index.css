@@ -1,0 +1,114 @@
+/* margin and padding for the body */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue; /* Setting background color for the body */
+    display: flex; /* Using flexbox for layout */
+    flex-direction: column; /* Setting the main axis direction to vertical */
+    min-height: 100vh; /* To make sure the body fills the viewport height */
+}
+
+
+h1 {
+    text-align: center; /* Center-aligning text */
+    color: rgb(35, 73, 106); /* Setting text color */
+    font-size: 50px; /* Setting font size */
+}
+
+
+h2 {
+    color: rgb(35, 73, 106); /* Setting text color */
+    margin: 20px; /* Setting margins */
+}
+
+/* Styling for the first navigation bar */
+.navbar1 {
+    list-style-type: none; /* Removing default list style */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Using flexbox for layout */
+    justify-content: center; /* Aligning navigation items horizontally */
+    background-color: #c5c8fd; /* Setting background color */
+    position: relative; /* Positioning context for child elements */
+    bottom: 5; /* Aligning the navigation bar to the bottom of the page */
+    width: 100%; /* Setting width to fill the container */
+    font-family: "Arial", sans-serif; /* Changing the font */
+}
+
+/* Styling for the second navigation bar */
+.navbar2 {
+    list-style-type: none; /* Removing default list style */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Using flexbox for layout */
+    justify-content: center; /* Aligning navigation items horizontally */
+    background-color: #c5c8fd; /* Setting background color */
+    width: 100%; /* Setting width to fill the container */
+    font-family: "Arial", sans-serif; /* Changing the font */
+}
+
+/* Styling for navigation list items */
+li {
+    margin: 0 30px; /* Adding spacing between navigation items */
+}
+
+/* Styling for navigation links */
+li a {
+    display: block; /* Making the links block-level elements */
+    color: #000; /* Setting text color */
+    padding: 15px 16px; /* Setting padding */
+    text-decoration: none; /* Removing default underline */
+}
+
+/* Styling for active navigation link */
+li a.active {
+    background-color: #514c8d; /* Setting background color */
+    color: white; /* Setting text color */
+}
+
+/* Styling for hover effect on navigation links */
+li a:hover:not(.active) {
+    background-color: #555; /* Setting background color */
+    color: white; /* Setting text color */
+}
+
+/* Styling for images on hover */
+img:hover {
+    border: 7px solid rgb(85, 72, 136); /* Adding border on hover */
+}
+
+/* Styling for images */
+img {
+    max-width: 30%; /* Setting maximum width */
+    height: auto; /* Maintaining aspect ratio */
+    display: block; /* Making images block-level elements */
+    margin: 0 auto; /* Centering images horizontally */
+    margin-bottom: 20px; /* Adding space below each image */
+    border-radius: 50px; /* Adding border radius */
+}
+
+/* Styling for paragraphs */
+.para1, .para2, .para3, .para4, .para5, .para6 {
+    margin-bottom: 20px; /* Adding space below each paragraph */
+    line-height: 1.5; /* Setting line height for better readability */
+    font-size: 20px; /* Setting font size */
+    margin: 20px; /* Setting margins */
+    font-family: "Arial", sans-serif; /* Changing the font */
+    text-align: justify; /* Justifying text */
+}
+
+/* Styling for main heading */
+h1 {
+    text-align: center; /* Center-aligning text */
+    color: rgb(35, 73, 106); /* Setting text color */
+}
+
+/* Styling for clock element */
+#clock {
+    font-size: 50px; /* Setting font size */
+    text-align: center; /* Center-aligning text */
+    margin-top: -10; /* Adjusting top margin */
+    padding: 10px; /* Adding padding */
+    color: #ad3535; /* Setting text color */
+    background-color: #c5c8fd; /* Setting background color */
+}

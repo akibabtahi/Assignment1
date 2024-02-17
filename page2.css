@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #a9a2a2; /* Set background color for the body */
+    min-height: 100vh; /* Make sure the body fills the viewport height */
+}
+
+h1 {
+    text-align: center; /* Center-align the heading */
+    font-size: 50px; /* Set the font size of the heading */
+}
+
+.navbar1{
+    list-style-type: none; /* Remove bullet points from the list */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Align the navigation items horizontally */
+    background-color: #c5c8fd; /* Set background color for the navigation bar */
+    position: relative; 
+    bottom: 10; /* Align the navigation bar to the bottom of the page */
+    width: 230% auto; /* Adjust width of the navigation bar */
+}
+
+li {
+    margin: 0 30px; /* Add spacing between navigation items */
+}
+
+li a {
+    display: block;
+    color: #000; /* Set text color for navigation links */
+    padding: 15px 16px; /* Add padding to navigation links */
+    text-decoration: none; /* Remove underline from navigation links */
+}
+
+li a.active {
+    background-color: #514c8d; /* Set background color for active navigation link */
+    color: white; /* Set text color for active navigation link */
+}
+
+li a:hover:not(.active) {
+    background-color: #555; /* Set background color on hover for navigation links */
+    color: white; /* Set text color on hover for navigation links */
+}
+.container{
+    display: grid; /* Use grid layout for the container */
+   grid-template-columns: 1fr 1fr 1fr ; /* Define three equal-width columns */
+}
+img{
+    
+    margin: auto; /* Center-align the images */
+    padding:5px; /* Add padding around the images */
+    width: 600; /* Set width of the images */
+    border-radius: 20px; /* Apply border radius to the images */
+}
+img:hover {
+    border: 7px solid rgb(255, 255, 255); /* Add border on hover for images */
+ }
+.para{
+    margin-bottom: 20px; /* Add some space below each paragraph */
+    line-height: 1.5; /* Set the line height for better readability */
+    font-size: 20px; /* Set font size for paragraphs */
+    margin: 20px; /* Add margin to paragraphs */
+    font-family: "Arial", sans-serif; /* Change the font to Arial or any other preferred font */
+    width: 1800px; /* Set width for paragraphs */
+}
+.nav{
+    font-size: 20px; /* Set font size for navigation links */
+    margin: 10px; /* Add margin to navigation links */
+} 

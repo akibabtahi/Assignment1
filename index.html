@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Welcom to Craft World</h1>
+   <p class="para1"> Here I tried to describe some photography themes. So I have talked about four themes in different four pages, which I have linked properly with this page. So you can visit those pages and explore.</p>
+   <br>
+   <ul class="navbar2">
+    <li><a class="active" href="http://127.0.0.1:5500/Assignment%201/index.html">Home</a></li>
+    <li><a href="http://127.0.0.1:5500/Assignment%201/page2.html">Aesthetic</a></li>
+    <li><a href="http://127.0.0.1:5500/Assignment%201/page3.html">Nature</a></li>
+    <li><a href="http://127.0.0.1:5500/Assignment%201/page4.html">Portraits</a></li>
+    <li><a href="http://127.0.0.1:5500/Assignment%201/page5.html">Random</a></li>
+  </ul>
+
+  <div id="clock"></div>
+
+      <script>
+      function updateClock() {
+          var now = new Date();
+          var hours = now.getHours();
+          var minutes = now.getMinutes();
+          var seconds = now.getSeconds();
+          
+          // Pad single digit minutes and seconds with leading zeros
+          minutes = (minutes < 10 ? "0" : "") + minutes;
+          seconds = (seconds < 10 ? "0" : "") + seconds;
+          
+          var timeString = hours + ":" + minutes + ":" + seconds;
+          
+          document.getElementById('clock').innerText = timeString;
+      }
+      
+      // Update the clock every second
+      setInterval(updateClock, 1000);
+      
+      // Initial call to display the clock immediately
+      updateClock();
+      </script>
+  
+   <h2>Aesthetic:</h2>
+   <p class="para2">Aesthetic photography refers to the practice of capturing images that are visually pleasing or artistically compelling. It focuses on the beauty of subjects, compositions, colors, lighting, and overall visual appeal. Aesthetic photos often evoke emotions, provoke thought, or simply delight the viewer's senses.</p>
+   <br>
+   <a href="https://www.studiobinder.com/blog/what-is-aesthetic-photography/#:~:text=Aesthetics%20in%20photography%20refers%20to,developed%20his%20own%20unique%20aesthetic."><img src="Pictures/aesthetic.jpg" alt="Error"></a>
+   <h2>Nature:</h2>
+   <p class="para3">
+    Nature pictures, in a broad sense, encompass photographs that depict the natural world, including landscapes, wildlife, plants, and natural phenomena. These images aim to capture the beauty, diversity, and wonder of nature, showcasing its intricate details, breathtaking vistas, and dynamic interactions.</p>
+    <br>
+    <a href="https://www.skillshare.com/en/blog/nature-photography-capturing-the-world-around-you/"><img src="Pictures/art.jpg" alt="Error"></a>
+    <h2>Portraits:</h2>
+    <p class="para4">Portraits in photography refer to images that primarily focus on capturing the likeness, personality, and expressions of individuals or groups of people. Unlike candid or street photography, portraits are often posed and intentionally composed to showcase the subject in a flattering or expressive manner.</p>
+    <br>
+    <a href="https://www.studiobinder.com/blog/what-is-portrait-photography-definition/#:~:text=Portrait%20photography%20aims%20to%20capture,as%20well%20as%20the%20style."><img src="Pictures/portraits.jpg" alt="Error"></a>
+    <h2>Random:</h2>
+    <p class="para5">Random photography, as a concept, involves capturing images without a predetermined plan or specific subject in mind. It's about embracing spontaneity and allowing the photographer's creativity to flow freely, often resulting in diverse and unexpected compositions.</p>
+    <br>
+    <a href="https://www.moneymakerphotography.com/random-acts-of-photography/"><img src="Pictures/random.jpg" alt="Error"></a>
+    <br>
+    <p class="para6">
+        In conclusion, photography encompasses a wide range of styles and approaches, each with its own unique characteristics and purposes. Aesthetic photography celebrates visual beauty and artistic expression, while nature photography seeks to capture the splendor and complexity of the natural world. Portraits delve into the individuality and emotions of human subjects, while random photography embraces spontaneity and creativity without predefined subjects. Together, these diverse genres contribute to the rich tapestry of photographic art, offering endless opportunities for both photographers and viewers to explore, appreciate, and connect with the world around them.</p>
+  
+    <ul class="navbar1">
+      <li><a class="active" href="http://127.0.0.1:5500/Assignment%201/index.html">Home</a></li>
+      <li><a href="http://127.0.0.1:5500/Assignment%201/page2.html">Aesthetic</a></li>
+      <li><a href="http://127.0.0.1:5500/Assignment%201/page3.html">Nature</a></li>
+      <li><a href="http://127.0.0.1:5500/Assignment%201/page4.html">Portraits</a></li>
+      <li><a href="http://127.0.0.1:5500/Assignment%201/page5.html">Random</a></li>
+    </ul>
+  
+    <br>  
+
+   
+    
+</body>
+</html>
